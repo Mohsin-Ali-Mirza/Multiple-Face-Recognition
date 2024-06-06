@@ -1,0 +1,1 @@
+1) You will need an image folder containing images for students and save them as  registered student id

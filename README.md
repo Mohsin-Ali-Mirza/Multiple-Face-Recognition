@@ -1,10 +1,11 @@
-# Multiple-Face-Recognition
+# FYP-Stable
 
 # Table Of Contents
 1. **[Face Detection](#1-face-detection)**
 2. **[Face Recognition](#2-face-recognition)**
 3. **[Multiple Face Recognition Using Multiple Cameras](#3-multiple-face-recognition-using-multiple-cameras)**
-<!--- 4. Batch Face Recognition Using Single Camera --->
+4. **[Batch Face Recognition Using Single Camera](#4-batch-face-recognition-using-single-camera)**
+5. **[Generative AI](#5-generative-ai)** 
 
 # Introduction
 
@@ -36,7 +37,7 @@ Various libraries were employed for face detection, including **OpenCV** and **D
     </td>
     <td>
       <figure>
-       <img src="Readme_Images/Face Detection/Yolov8.png">
+       <img src="Readme_Images/Face Detection/yolov8.gif">
         <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Real-Time Detection</figcaption>
       </figure>
     </td>
@@ -121,6 +122,80 @@ The inference time for each of the camera along with the retrieval time of the i
 
 <img src="Readme_Images/Face Recognition/Multiple Camera Inference Table.png"/>
 
+# 4. Batch Face Recognition Using Single Camera
+Face recognition will be conducted using a single camera which will capture the faces of the students in a bulk. We have optimized the code by improving the performance of the face recognition by reducing the false positive rate and also by adding an LRU cache to reduce the retrieval time to fetch the records from the database.
+
+<img src="Readme_Images/Face Recognition/Batch_Inference.gif" width=684px height=384px/>
+
+## Results
+The results have been compiled for 2 students concurrently being shown in the frame.
+<table>
+    <td>
+      <figure>
+        <img src="Readme_Images/Face Recognition/Batch_Face_Recognition_Results.png">
+        <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Batch Recognition Results</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+       <img src="Readme_Images/Face Recognition/LRU_Optimizations.png">
+        <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LRU And UI Optimizations</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
+<table>
+    <td>
+      <figure>
+        <img src="Readme_Images/Face Recognition/FR_Optimized.png">
+        <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Overall Performance Of Face Recognition</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
+# 5. Generative AI
+This was research part of our project where we experimented with 2 different models. **5.1 Attribute Gans for Facial Attributes** and **5.2 Interface Gans for Aging**
+
+## 5.1 Attribute Gans
+<table>
+    <td>
+      <figure>
+        <img src="Readme_Images/Research/Attr_Gan/Tom Cruise.gif">
+        <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tom Cruise</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+       <img src="Readme_Images/Research/Attr_Gan/trump_attr.gif">
+        <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Donald Trump</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
+<img src="Readme_Images/Research/Attr_Gan/attr_gan_results.png">
+
+## 5.2 Interface Gans
+<table>
+    <td>
+      <figure>
+        <img src="Readme_Images/Research/Infer_Gan/Colin Farrell.gif">
+        <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Colin Farrell</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+       <img src="Readme_Images/Research/Infer_Gan/yiurki_interface.gif">
+        <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yiurki</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
+<img src="Readme_Images/Research/Infer_Gan/inferface_gans_results.png">
+
 # Tech Stack
 <li>Python</li>
 <li>OpenCv</li>
@@ -131,8 +206,9 @@ The inference time for each of the camera along with the retrieval time of the i
 
 
 ### Contributors
+- **[Muhammad Waleed Gul](https://github.com/waleedgul92)**
+- **[Mehwish Sameer](https://github.com/MehwishSameer)**
 
 **© Developed Under the Supervision of** 
 - **[Dr Muhammad Rafi](https://khi.nu.edu.pk/personnel/dr-muhammad-rafi-phd/)(Associate Professor –Head of Department of AI & DS)**
 - **[Dr Muhammad Waqas](https://khi.nu.edu.pk/personnel/dr-muhammad-waqas-phd/)(Assistant Professor)**
-

@@ -1,0 +1,1 @@
+1) You can create embedding using FaceNet, FaceRecognition or DeepFace by running create_embedding.ipynb file by parsing google-drive link for images

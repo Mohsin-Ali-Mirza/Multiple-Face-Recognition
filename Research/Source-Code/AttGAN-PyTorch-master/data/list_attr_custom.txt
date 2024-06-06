@@ -1,0 +1,34 @@
+27
+Bald Bangs Black_Hair Blond_Hair Brown_Hair Bushy_Eyebrows Eyeglasses Male Mouth_Slightly_Open Mustache No_Beard Pale_Skin Young
+donald_trump.jpg -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+emma_watson.jpg  -1  1 -1 -1  1 -1 -1 -1 -1 -1  1 -1  1
+jay_chou.jpeg    -1  1 -1 -1  1 -1 -1 -1 -1 -1  1 -1  1
+ji-eun_lee.jpg   -1  1 -1 -1  1 -1 -1 -1  1 -1  1 -1  1
+tom_cruise.jpg   -1 -1 -1 -1  1  1 -1  1  1 -1  1 -1 -1
+yui_aragaki.jpg  -1  1 -1 -1  1 -1 -1 -1 -1 -1  1 -1  1
+K200245_2.jpg    -1  1  0.5 0.5 0.5  0.5 0.5  0.5  0.5 0.5  0.5 0.5  0.5 
+mehwish.jpg      -1  1  1 -1 -1  1 -1  1  1 -1  1 -1  1 
+donald_trump.jpg -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+shahzad.jpg      -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+waleed_1.jpg    -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+man1.jpg	 -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+man2.jpg	 -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+emma.jpg  	-1  1 -1 -1  1 -1 -1 -1 -1 -1  1 -1  1
+jay_chou2.jpg    -1  1 -1 -1  1 -1 -1 -1 -1 -1  1 -1  1
+donald_trump.jpg -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+shahid.jpg  -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+donald1.jpg -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+man3.jpg	 -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+man4.jpg	 -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+man5.jpg	 -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+man6.jpg	 -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+man7.jpg	 -1 -1 -1  1 -1  1  1  1  1 -1  1 -1 -1
+man8.jpg	 -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+man9.jpg	 -1 -1 -1  1 -1  1 -1  1  1 -1  1 -1 -1
+man10.jpg	 -1 -1 -1  -1 -1  -1 1  -1  -1 -1  -1 -1 -1
+man12.jpg	 -1 -1 -1  -1 -1  -1 1  -1  -1 -1  -1 -1 -1
+man13.jpg	 -1 -1 -1  -1 -1  -1 1  -1  -1 -1  -1 -1 -1
+man14.jpg	 -1 -1 -1  -1 -1  -1 1  -1  -1 -1  -1 -1 -1
+man15.jpg	 -1 -1 -1  -1 -1  -1 1  -1  -1 -1  -1 -1 -1
+man16.jpg	 -1 -1 -1  -1 -1  -1 1  -1  -1 -1  -1 -1 -1
+man17.jpg	 -1 -1 -1  -1 -1  -1 1  -1  -1 -1  -1 -1 -1
